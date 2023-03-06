@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(138, 210, 228);
+}
+
+.product-wrapper {
+  padding-top: 100px;
+}
+
+.cart-wrapper {
+  padding-top: 100px;
+  
+}
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+
+.products-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: orange;
+}
+
+.cart-content-transparent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: transparent;
+}
+
+.cart-content-orange {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: orange;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.product-item img {
+  height: 230px;
+}
+
+.total-primary {
+  padding: 20px;
+  background-color: rgb(138, 210, 228);
+ 
+}
+
+.total-hidden{
+  display: none;
+} 
+
+
+.product-item {
+  width: 30%;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cart-item {
+  width: 25%;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-item h3 {
+  font-size: 14px;
+}
+
+.box img {
+  height: 200px;
+}
+
+.cart-content-orange {
+  padding: 50px 20px;
+}
+
+.box {
+  max-height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: rgb(83, 80, 80);
+  color: #fff;
+  font-size: 16px;
+  border:none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-cart {
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: rgb(112, 110, 110);
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+.cart-content .flex-content {
+  margin-bottom: 10px;
+}
+
+
+.flex-content h3 {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(112, 110, 110);
+}
+
+.item-info {
+  padding: 20px 15px;
+  background-color: rgb(138, 210, 228);
+}
+
+.cart-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  margin-right: 6px;
+}
+
+.cart-space-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 250px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.cart-content-hidden {
+  display: none;
+}
+
+span {
+  margin-right: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cart-btn img {
+  width: 100%;
+}
+
+.title a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.title a:hover {
+  color: rgb(241, 236, 236);
+}
+
+.cart-btn-content {
+  display: flex;
+  align-items: center;
+}
+
+
+.cart-btn-content span{
+  font-weight: bold;
+  color: #fff;
+}
+
+.flex-content h3 {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.cart-icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.cart-icon-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 30px;
+  font-size: 20px;
+  background-color:rgb(83, 80, 80);
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.cart-icon-btn:hover {
+  background-color: rgb(112, 110, 110);
+}
+
+.btn-remove-container button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-remove-container img {
+  height: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+  .cart-item {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
